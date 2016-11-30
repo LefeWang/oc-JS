@@ -19,8 +19,6 @@
 		569D53CC1DCC7969008076E0 /* PracticeATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D53CB1DCC7969008076E0 /* PracticeATests.m */; };
 		569D53D71DCC7969008076E0 /* PracticeAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D53D61DCC7969008076E0 /* PracticeAUITests.m */; };
 		56AFFD4B1DDC507700C27D92 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AFFD4A1DDC507700C27D92 /* libstdc++.6.0.9.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
-		56B74EC31DDD495E009E3A6D /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B74EC21DDD495E009E3A6D /* LoginViewModel.m */; };
-		56B74EC61DDD5D4B009E3A6D /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B74EC51DDD5D4A009E3A6D /* RequestModel.m */; };
 		56E40FDC1DEE9DE400E1F728 /* thirdget.html in Resources */ = {isa = PBXBuildFile; fileRef = 56E40FDB1DEE9DE400E1F728 /* thirdget.html */; };
 		56E40FDE1DEE9ED000E1F728 /* secondget.html in Resources */ = {isa = PBXBuildFile; fileRef = 56E40FDD1DEE9ED000E1F728 /* secondget.html */; };
 /* End PBXBuildFile section */
@@ -64,10 +62,6 @@
 		569D53D61DCC7969008076E0 /* PracticeAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeAUITests.m; sourceTree = "<group>"; };
 		569D53D81DCC7969008076E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56AFFD4A1DDC507700C27D92 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		56B74EC11DDD495D009E3A6D /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		56B74EC21DDD495E009E3A6D /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewModel.m; path = /Users/TeslaMac/Desktop/PracticeA/PracticeA/LoginViewModel.m; sourceTree = "<absolute>"; };
-		56B74EC41DDD5D4A009E3A6D /* RequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
-		56B74EC51DDD5D4A009E3A6D /* RequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
 		56E40FDB1DEE9DE400E1F728 /* thirdget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thirdget.html; sourceTree = "<group>"; };
 		56E40FDD1DEE9ED000E1F728 /* secondget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = secondget.html; sourceTree = "<group>"; };
 		6F65983AF87315717F6030DB /* libPods-PracticeA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PracticeA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,10 +139,6 @@
 				563404881DED64CB001886DB /* SRSA.JS */,
 				56E40FDD1DEE9ED000E1F728 /* secondget.html */,
 				56E40FDB1DEE9DE400E1F728 /* thirdget.html */,
-				56B74EC11DDD495D009E3A6D /* LoginViewModel.h */,
-				56B74EC21DDD495E009E3A6D /* LoginViewModel.m */,
-				56B74EC41DDD5D4A009E3A6D /* RequestModel.h */,
-				56B74EC51DDD5D4A009E3A6D /* RequestModel.m */,
 				569D53BA1DCC7967008076E0 /* Main.storyboard */,
 				569D53BD1DCC7968008076E0 /* Assets.xcassets */,
 				569D53BF1DCC7968008076E0 /* LaunchScreen.storyboard */,
@@ -393,11 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56B74EC31DDD495E009E3A6D /* LoginViewModel.m in Sources */,
 				5634047F1DED3226001886DB /* GTMBase64.m in Sources */,
 				569D53B91DCC7967008076E0 /* ViewController.m in Sources */,
 				569D53B61DCC7966008076E0 /* AppDelegate.m in Sources */,
-				56B74EC61DDD5D4B009E3A6D /* RequestModel.m in Sources */,
 				569D53B31DCC7966008076E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
